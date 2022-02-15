@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7">
+        <include layout="@layout/textview1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <include layout="@layout/textview3" android:id="@+id/ce"/>
+                    <include layout="@layout/textview3" android:id="@+id/c" />
+                    <include layout="@layout/textview3" android:id="@+id/back"/>
+                    <include layout="@layout/textview3" android:id="@+id/divide"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <include layout="@layout/textview4" android:id="@+id/number7" />
+                    <include layout="@layout/textview4" android:id="@+id/number8"/>
+                    <include layout="@layout/textview4" android:id="@+id/number9"/>
+                    <include layout="@layout/textview3" android:id="@+id/multiply" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <include layout="@layout/textview4" android:id="@+id/number4" />
+                    <include layout="@layout/textview4" android:id="@+id/number5"/>
+                    <include layout="@layout/textview4" android:id="@+id/number6"/>
+                    <include layout="@layout/textview3" android:id="@+id/subtract"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <include layout="@layout/textview4" android:id="@+id/number1"/>
+                    <include layout="@layout/textview4" android:id="@+id/number2"/>
+                    <include layout="@layout/textview4" android:id="@+id/number3"/>
+                    <include layout="@layout/textview3" android:id="@+id/add"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="0.8"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/textview3" android:id="@+id/dot" />
+                    <include layout="@layout/textview4" android:id="@+id/number0"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <include layout="@layout/textview5" android:id="@+id/equal"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="0.2">
+                <include layout="@layout/textview2" android:id="@+id/inverse" />
+                <include layout="@layout/textview2" android:id="@+id/Rad"/>
+                <include layout="@layout/textview2" android:id="@+id/Sine" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="0.2">
+                <include layout="@layout/textview2" android:id="@+id/Cosine"/>
+                <include layout="@layout/textview2" android:id="@+id/tangent"/>
+                <include layout="@layout/textview2" android:id="@+id/percentage" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="0.2">
+                <include layout="@layout/textview2" android:id="@+id/naturallog" />
+                <include layout="@layout/textview2" android:id="@+id/log"/>
+                <include layout="@layout/textview2" android:id="@+id/exclamation"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="0.2">
+                <include layout="@layout/textview2" android:id="@+id/raisetopower"/>
+                <include layout="@layout/textview2" android:id="@+id/pie"/>
+                <include layout="@layout/textview2" android:id="@+id/e"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight=".2">
+                <include layout="@layout/textview2" android:id="@+id/openbracket" />
+                <include layout="@layout/textview2" android:id="@+id/closebracket"/>
+                <include layout="@layout/textview2" android:id="@+id/squareroot"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
