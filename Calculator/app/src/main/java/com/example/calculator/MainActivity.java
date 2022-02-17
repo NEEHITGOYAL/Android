@@ -2,19 +2,23 @@ package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView ce,c,backspace,divide,multiply,subtract,add,number0,number1,number2
             ,number3,number4,number5,number6,number7,number8,number9,dot,equal,
-            inv,rad,sine,cosine,tangent,percentage,naturallog,log,factorial,raisepower,pie,exp,
-            openbracket,closebracket,squareroot;
+            inv,rad,sine,cosine,tangent,percentage,naturallog,log,factorial,raisepower,
+            pie,exp, openbracket,closebracket,squareroot,calculatorName;
+    Bundle bundle;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        calculatorName = findViewById(R.id.calcname);
         ce = findViewById(R.id.ce);ce.setText("CE");
         c = findViewById(R.id.c);c.setText("C");
         backspace = findViewById(R.id.back);backspace.setText(("<-"));
@@ -49,5 +53,10 @@ public class MainActivity extends AppCompatActivity {
         raisepower = findViewById(R.id.raisetopower);raisepower.setText("^");
         factorial = findViewById(R.id.exclamation);factorial.setText("!");
         percentage = findViewById(R.id.percentage);percentage.setText("%");
+        bundle = getIntent().getExtras();
+        if(bundle != null){
+            String name = bundle.getString("name","error");
+            calculatorName.setText(name);
+        }
     }
 }

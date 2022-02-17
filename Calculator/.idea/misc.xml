@@ -4,13 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.132" />
-        <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.16499330655957162" />
+        <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout-w936dp/activity_login.xml" value="0.192578125" />
+        <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/activity_signup.xml" value="0.25677083333333334" />
         <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/random.xml" value="0.25677083333333334" />
         <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/textview1.xml" value="0.264" />
         <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/textview2.xml" value="0.264" />
         <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/textview3.xml" value="0.2" />
         <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/textview4.xml" value="0.152" />
         <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/textview5.xml" value="0.25677083333333334" />
+        <entry key="..\:/AndroidStarted/Calculator/app/src/main/res/layout/textview6.xml" value="0.25677083333333334" />
       </map>
     </option>
   </component>
