@@ -5,7 +5,6 @@
     android:gravity="bottom|right"
     android:textColor="@color/white"
     android:textSize="48sp"
-    android:text="73828329"
     android:id="@+id/calcval"
     android:background="#444444">
 </TextView>
